@@ -1,69 +1,197 @@
-<!DOCTYPE html>
-<html lang="en">
+ <!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="https://cdn-icons-png.freepik.com/512/686/686165.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/686/686104.png">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Shrikant Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+    <title>Saurabh Portfolio</title>
 </head>
-<body>
+<body background-color="black">
+    <!-- Navbar start here -->
     <div class="navigation-bar">
-        <nav class="navbar navbar-expand-lg navbar-light  ">
-            <a class="navbar-brand" href="#" ><span class="brand tracking-in-expand">Shrikant</span></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#home"><span class="navmenu">Home</span> <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about"><span class="navmenu">About</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills"><span class="navmenu">Skills</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#projects"><span class="navmenu">Projects</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact"><span class="navmenu">Contact</span></a>
-                  </li>
-              </ul>
-            </div>
-          </nav>
+        
+        <nav class="navbar navbar-expand-lg navbar-light ">
+  <a class="navbar-brand" href="#"><span class="brand tracking-in-expand">Saurabh Gahukar</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#home"><span class="navmenu">Home</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about"><span class="navmenu">About</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills"><span class="navmenu">Skills</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#project"><span class="navmenu">Project</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact"><span class="navmenu">Contact</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
     </div>
-    <!-- nav bar ends here -->
-   <div class="main-container">
-    <section id="home" class="portfolio-sections">
+    <!-- Navbar ends here -->
+
+    <div class="main-container">
+        <section id="home" class="portfolio-section">
         <div id="home-info">
-            <span class="info">Hi </span><br/>
-            <span class="info">My name is </span><br>
-            <span class="brand myname">SHRIKANT</span><br>
-            <span class="info">I am <span class="designation">Full Stack Developer</span></span>
+            <span class="info">Hi</span><br>
+            <span class="info">My Name is</span><br>
+            <span class="brand myname tracking-in-expand-fwd">Saurabh Gahukar</span><br>
+            <span class="info">I am a <br></span><span class="designation"> Full Stack Developer</span><br>
             <button href="demo.pdf" class="rsmbtn">RESUME</button>
         </div>
     </section>
-    <section id="about" class="portfolio-sections">
-        <h1>ABOUT</h1>
+    <section id="about" class="portfolio-section about-section">
+    <div class="aboutmain">
+        <div class="myimage">
+            <img class="carrerimage" src="https://media.foundit.in/career-advice/wp-content/uploads/2021/10/career-objective-for-fresher-resume.jpg">
+        </div>
+        <div class="carrerobj">
+        <h1 class="heading" >About</h1>
+        <p class="carrerinfo">Passionate and skilled Java Full Stack Developer with a commitment to crafting efficient, scalable, and user-centric applications. Leveraging expertise in both front-end and back-end development, I aim to contribute innovative solutions to projects while continuously enhancing my technical proficiency.
+        </p>
+    </div></div>
     </section>
-    <section id="skills" class="portfolio-sections">
-        <h1>SKILLS</h1>
+    <section id="skills" class="portfolio-section">
+        <h1 class="heading">Skills</h1>
+        <table class="tb1" height="450px" width="90%" cellspacing="50px">
+            <tr align="Centre" valign="top">
+                <div class="borderskills">
+                    <td width=50% data-aos="slide-right">
+                        <h2 class="skills-subheading">Languages</h2>
+                        <p class="detailedskills">
+                            Core Java,  HTML, CSS, JavaScript, SQL.
+                        </p>
+                    </td>
+                </div>
+                <div class="borderskills">
+                    <td data-aos="slide-left">
+                        <h2 class="skills-subheading">API's & Frameworks</h2>
+                        <p class="detailedskills">
+                        Collection, JDBC, SpringBoot, ReactJS</p>
+                    </td>
+                </div>
+            </tr>
+          <tr align="Centre" valign="top">
+            <div class="borderskills">
+                <td data-aos="slide-right">
+                    <h2 class="skills-subheading">Tools</h2>
+                    <p class="detailedskills">
+                        VS Code, Eclipse, Git, Github, Netbeans, Mysql.
+                    </p>
+                </td>
+            </div>
+            <div class="borderskills">
+                <td data-aos="slide-left">
+                    <h2 class="skills-subheading">Operating Systems</h2>
+                    <p class="detailedskills">
+                        Windows, Android, ios, Linux.
+                    </p>
+                </td>
+            </div>
+          </tr>
+        </table>
     </section>
-    <section id="projects" class="portfolio-sections">
-        <h1>PROJECTS</h1>
-    </section>
-    <section id="contact" class="portfolio-sections">
-        <h1>CONTACT</h1>
-    </section>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        duration:2000
+    });
+  </script>
+    <section id="project" class="portfolio-section" >
+        <h1 class="heading">Projects</h1>
+        <div class="card-deck" margin-top=20px>
+  <div class="card">
+    <img src="" class="card-img-top" alt="..." height="300px">
+    <div class="card-body">
+      <h5 class="card-title">Object detection And Counting</h5>
+      <p class="card-text">Object counting with Ultralytics YOLOv8 involves accurate identification and counting of specific objects in videos and camera streams. YOLOv8 excels in real-time applications, providing efficient and precise object counting for various scenarios like crowd analysis and surveillance, thanks to its state-of-the-art algorithms and deep learning capabilities.
+</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Currently Working on it</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="talk.png" class="card-img-top" alt="..." height="300px">
+    <div class="card-body">
+      <h5 class="card-title">TalkTech interviwer</h5>
+      <p class="card-text">
+The TalkTech interview process incorporates cutting-edge speech recognition technology to revolutionize the way interviews are conducted. In an era where seamless communication and efficient candidate evaluation are paramount, TalkTech's approach offers a game-changing solution.
+.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Completed 3 Months ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="speech.jpg" class="card-img-top" alt="..." height="300px">
+    <div class="card-body">
+      <h5 class="card-title">Identification and evaluation of emotion from Speech</h5>
+      <p class="card-text">Speech emotion detection (SER) is a project that uses machine learning (ML) and deep learning to determine the emotional state of a speaker from their speech patterns. The goal is to identify emotions like happiness, sadness, anger, or frustration based on pitch, prosody, and rhythm</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Completed 1 Year ago</small>
+    </div>
+  </div>
+</div>
 
-   </div>
+<section id="contact" class="portfolio-section">
+  <h1 class="heading">Contact</h1>
+  <div class="container contact-container">
+    <div class="contact-info">
+      <h2>Student Details</h2>
+      <table>
+        <tr>
+          <td>Email:</td>
+          <td>saurabhgahukar47@gmail.com.com</td>
+        </tr>
+        <tr>
+          <td>GitHub:</td>
+          <td><a href="https://github.com/Saurabh2712">Github</a></td>
+        </tr>
+        <tr>
+          <td>LinkedIn:</td>
+          <td><a href="https://www.linkedin.com/in/saurabh-gahukar/">linkedin</a></td>
+        </tr>
+      </table>
+    </div>
+    <div class="contact-form">
+      <h2>Contact Form</h2>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Comment</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
+
     
+
 </body>
 </html>
